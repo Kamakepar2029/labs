@@ -1,1 +1,64 @@
+<html>
+<head>
+<title>Kama Store</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<style>
+  #store{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  align-items:center;
+  overflow:auto;
+  }
+  .block{
+    background:black;
+    color:white;
+    margin-right:150px;
+    display:flex;
+    border:1px solid black;
+    border-radius:5px;
+  }
+  .other{
+  flex-direction:column;
+  }
+  .download{
+  margin:8px;
+  }
+  .dow{
+  background:#1475ec;
+    padding:8px;
+  border-radius:5px;
+  color:white;
+  text-decoration:none;
+  }
+  .dow:hover{
+  background:#1492ec;
+  }
+  </style>
+  <h1>Kama Labworks</h1> 
+  <div id="store">
+    
+  </div>
+  <script> 
+function reqListener () {
+  var sor = this.responseText;
+  sor = JSON.parse(sor);
+  var start = 0;
+  var stop = sor.length;
+  var array = '';
+  while (start < stop){
+    var array = array + '<div class="block"><div class="img"><img src="'+sor[start].img+'" style="border-radius:5px;width:60px;height:60px;"></div><div class="other"><div class="name">'+sor[start].name+'</div><div class="version">'+sor[start].ver+'</div><div class="download"><a href="'+sor[start].apk+'" class="dow">Download APK</a></div></div></div>';
+    start +=1;
+  }
+  document.getElementById('store').innerHTML=array;
+}
 
+var oReq = new XMLHttpRequest();
+oReq.addEventListener("load", reqListener);
+oReq.open("GET", "/zurkin.lab");
+oReq.send();
+  </script>
+</body>
+</html>
