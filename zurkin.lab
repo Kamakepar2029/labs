@@ -1,1 +1,52 @@
-
+[
+  {
+    "my": "http://labworks.mpt.ru/files/DHCPIPv4_v_OS_Debian_difPtLF.pdf",
+    "name": "Настройка DHCPipv4",
+    "his": "http://labworks.mpt.ru/files/DHCPIPv4_v_OS_Debian_M2NwVEq.docx"
+  },
+  {
+    "my": "http://labworks.mpt.ru/files/RAID_mMm7gs0.pdf",
+    "name": "Конфигурирование RAID",
+    "his": "http://labworks.mpt.ru/files/RAID.docx"
+  },
+  {
+    "my": "http://labworks.mpt.ru/files/SAMBA_%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_FHGGGrp.pdf",
+    "name": "Развертывание Samba",
+    "his": "http://labworks.mpt.ru/files/SAMBA_%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.docx"
+  },
+  {
+    "my": "http://labworks.mpt.ru/files/%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B_jDEkdFz.pdf",
+    "name": "9.14. Транспортный уровень: протоколы TCP, UDP и службы",
+    "his": "http://labworks.mpt.ru/files/%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B.docx"
+  },
+  {
+    "my": "http://labworks.mpt.ru/files/NTP_%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B_lhPWwSA.pdf",
+    "name": "NTP вопросы",
+    "his": "http://labworks.mpt.ru/files/NTP_%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B.docx"
+  },
+  {
+    "my": "http://labworks.mpt.ru/files/Nginx_Sw2oaV1.pdf",
+    "name": "Установка Nginx",
+    "his": "http://labworks.mpt.ru/files/Nginx.docx"
+  },
+  {
+    "my": "http://labworks.mpt.ru/files/LR7_SFTP_chast_1_pol.pdf",
+    "name": "Настройка SFTP часть 1",
+    "his": "http://labworks.mpt.ru/files/LR7_SFTP_chast_1.docx"
+  },
+  {
+    "my": "http://labworks.mpt.ru/files/LR8_SFTP_chast_2_%D0%B7%D1%89%D0%B4.pdf",
+    "name": "Настройка SFTP часть 2",
+    "his": "http://labworks.mpt.ru/files/LR8_SFTP_chast_2.docx"
+  },
+  {
+    "my": "http://labworks.mpt.ru/files/%D0%9A%D0%BE%D0%BD%D1%81%D0%BF%D0%B5%D0%BA%D1%82_%D0%BF%D0%BE_LPIC_105.1.pdf",
+    "name": "Конспект по bash",
+    "his": "http://labworks.mpt.ru/files/%D0%9A%D0%BE%D0%BD%D1%81%D0%BF%D0%B5%D0%BA%D1%82_%D0%BF%D0%BE_%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B0%D0%BC.docx"
+  },
+  {
+    "my": "http://labworks.mpt.ru/files/mysql_zcufncA.pdf",
+    "name": "Установка mysql",
+    "his": "http://labworks.mpt.ru/files/mysql.docx"
+  }
+]
