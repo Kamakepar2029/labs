@@ -55,7 +55,7 @@ function reqListener () {
   var stop = sor.length;
   var array = '';
   while (start < stop){
-    var array = array + '<div class="block"><div class="lab"><a href="'+sor[start].my+'">Моя лаба</a></div><div class="other"><div class="name">Имя лабы: '+sor[start].name+'</div><div class="version"><a href="'+sor[start].his+'">Его Лаба</a></div></div></div>';
+    var array = array + '<div class="block"><div class="lab"><a href="'+sor[start].my+'">Моя лаба</a></div><div class="other"><div class="name">Имя лабы: '+sor[start].name+'</div></div><div class="version"><a href="'+sor[start].his+'">Его Лаба</a></div>';
     start +=1;
   }
   document.getElementById('store').innerHTML=array;
